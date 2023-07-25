@@ -1,4 +1,4 @@
-// Dashboard.js
+ // Dashboard.js
 import styles from '@/styles/dashboard.module.css'
 import { useState } from 'react';
 import { useRouter } from 'next/router';
@@ -206,7 +206,7 @@ export default function Dashboard () {
                   <div className={styles.his}>
                      <div className={styles.dislogo}>
                         <BsCurrencyBitcoin className={styles.disbit} />
-                        <p>Pranav</p>
+                        <p>Vamsi</p>
                      </div>
                      <div className={styles.disdate}>
                        <p className={styles.rate}>+0.025</p>
@@ -216,7 +216,7 @@ export default function Dashboard () {
                   <div className={styles.his}>
                      <div className={styles.dislogo}>
                         <BsCurrencyBitcoin className={styles.disbit} />
-                        <p>Pranav</p>
+                        <p>Vamsi</p>
                      </div>
                      <div className={styles.disdate}>
                        <p className={styles.rate}>+0.025</p>
@@ -226,7 +226,7 @@ export default function Dashboard () {
                   <div className={styles.his}>
                      <div className={styles.dislogo}>
                         <BsCurrencyBitcoin className={styles.disbit} />
-                        <p>Pranav</p>
+                        <p>Vamsi</p>
                      </div>
                      <div className={styles.disdate}>
                        <p className={styles.rate}>+0.025</p>
@@ -236,7 +236,7 @@ export default function Dashboard () {
                   <div className={styles.his}>
                      <div className={styles.dislogo}>
                         <BsCurrencyBitcoin className={styles.disbit} />
-                        <p>Pranav</p>
+                        <p>Vamsi</p>
                      </div>
                      <div className={styles.disdate}>
                        <p className={styles.rate}>+0.025</p>
