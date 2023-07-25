@@ -1,0 +1,54 @@
+.main {
+    color: white;
+    text-align: center;
+    margin: 0;
+     font-size: 4.5rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+
+.index {
+    width: 100%;
+    height: 100%;
+}
+
+.sen {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 20vh;
+    align-items: center;
+}
+
+.para {
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    z-index: 2;
+}
+.paraa {
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    margin-top: -1rem;
+    z-index: 2;
+}
+
+.connect {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    background: var(--gradient-main, linear-gradient(225deg, #18C8FF 0%, #933FFE 100%));
+    cursor: pointer;
+    transition: all 500ms ease;
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-top: 1rem;
+}
+

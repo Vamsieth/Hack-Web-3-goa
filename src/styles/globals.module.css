@@ -1,0 +1,167 @@
+
+
+.ring {
+   margin-top: 9rem;
+   width: 65.1925rem;
+   height: 26.18663rem;
+   transform: rotate(14.21deg);
+   flex-shrink: 0;
+   position: fixed;
+   border-radius: 70%;
+   border: 1px solid rgba(210, 207, 207, 0.317);
+   z-index: 1;
+} 
+.ringg {
+   width: 98rem;
+   height: 44rem;
+   margin-left: -10rem;
+   margin-top: -1rem;
+   transform: rotate(14.21deg);
+   flex-shrink: 0;
+   position: fixed;
+   border-radius: 70%;
+   border: 1px solid rgba(210, 207, 207, 0.317);
+   z-index: 1;
+} 
+.ringgg {
+   width: 118rem;
+   height: 59rem;
+   margin-left: -16rem;
+   margin-top: -4rem;
+   transform: rotate(14.21deg);
+   flex-shrink: 0;
+   position: fixed;
+   border-radius: 70%;
+   border: 1px solid rgba(210, 207, 207, 0.317);
+   z-index: 1;
+} 
+
+.bitcoin {
+   position: absolute;
+   width: 6rem;
+   height: 6.7rem;
+   transform: rotate(30deg);
+   flex-shrink: 0;
+   margin-top: 6rem;
+   margin-left: 4rem;
+   z-index: 2;
+}
+
+.litcoin {
+   position: absolute;
+   width: 6.5rem;
+   height: 6.5rem;
+   transform: rotate(-47.35deg);
+   margin-top: 32rem;
+   margin-left: 10rem;
+   flex-shrink: 0;
+   z-index: 2;
+}
+
+.ethereum {
+   position: absolute;
+   width: 9.3rem;
+   height: 9.3rem;
+   transform: rotate(10.29deg);
+   flex-shrink: 0;
+   margin-left: 55rem;
+   margin-top: 30rem;
+   z-index: 2;
+}
+.ethereumtwo {
+   position: absolute;
+   width: 9.9rem;
+   height: 9.9rem;
+   flex-shrink: 0;
+   margin-left: 70rem;
+   margin-top: 8.3rem;
+   z-index: 2;
+}
+
+.sphered {
+   position: absolute;
+   width: 5.8rem;
+   height: 5.8rem;
+   flex-shrink: 0;
+   margin-top: 21.5rem;
+   margin-left: 4rem;
+   z-index: 2;
+}
+
+.blur {
+   position: absolute;
+   width: 25rem;
+   height: 18rem;
+   border-radius: 50%;
+   background: #5bf7c660;
+   filter: blur(72px);
+ }
+
+ .blurr {
+   position: absolute;
+   width: 25rem;
+   height: 18rem;
+   border-radius: 50%;
+   background: #f75bf73d;
+   filter: blur(72px);
+   right: 0;
+   top: 15rem;
+ }
+ .blurrr {
+   position: absolute;
+   width: 20rem;
+   height: 18rem;
+   border-radius: 50%;
+   background: #504bf463;
+   filter: blur(72px);
+   right: 0;
+   top: 21rem;
+ }
+
+ .star {
+   position: absolute;
+   margin-top: 5rem;
+   right: 0;
+   margin-right: 15rem;
+   width: 4rem;
+   height: 4rem;
+ }
+
+ .starmini {
+   position: absolute;
+   margin-top: 7rem;
+   right: 0;
+   margin-right: 2rem;
+ }
+ .starbig {
+   position: absolute;
+   margin-top: 9rem;
+   width: 3.8rem;
+   height: 3.4rem;
+   margin-left: 12rem;
+   z-index: 1;
+ }
+ .starbigg {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 3.8rem;
+   height: 3.4rem;
+   margin-right: 6rem;
+   margin-bottom: 3rem;
+   z-index: 1;
+ }
+
+ .spherepur {
+   position: absolute;
+   width: 12rem;
+   height: 12rem;
+   border-radius: 50%;
+   background : linear-gradient( rgb(255, 111, 241) , rgb(111, 0, 255));
+   right: -3rem;
+   bottom: 0;
+   margin-bottom: 6rem;
+   box-shadow: 7px 12px 35px 0px rgba(255, 255, 255, 0.511) inset, /* White, top left */
+   -2.5px 1px 7px 0px #fa9595 inset, /* Pink, bottom left */
+   2.5px 1px 7px 0px rgb(111, 0, 255) inset;
+ }

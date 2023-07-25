@@ -1,0 +1,403 @@
+.dashboardd {
+    position: relative;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 6;
+    display: grid;
+    grid-template-columns: 23% 77%;
+}
+
+
+  .sidebar {
+    background-color: #000000; 
+    padding: 5rem 3rem;
+    margin-top: 4rem;
+    gap: 2rem;
+    color: rgba(255, 255, 255, 0.712);
+  }
+
+  .para {
+    display: flex;
+    margin-top: -0.001rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .icon {
+    display: flex;
+  }
+  
+
+  .side {
+       margin-top: 2rem;
+        display: flex;
+        line-height: 0.98rem;
+        gap: 2rem;
+        cursor: pointer;
+  }
+  
+  .rightside {
+    background-color: #000000; 
+  }
+
+  .wallet {
+        color: white;
+  }
+
+  .p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: rgba(255, 255, 255, 0.319); */
+    font-size:small;
+  }
+  .pp {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: rgba(255, 255, 255, 0.319); */
+    font-size: smaller;
+  }
+
+  .ppp {
+    color: rgba(255, 0, 0, 0.512);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-left: -1.5rem;
+  }
+  .pppp {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-left: -1.5rem;
+  }
+
+  .boxes {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+
+  .box {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: #8C43E6;
+    display: flex;
+    padding: 0.7rem 0.7rem;
+    color: white;
+    align-items: center;
+  }
+  .boxx {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.319);
+    color: rgba(255, 255, 255, 0.319);
+    display: flex;
+    padding: 0.7rem 0.7rem;
+    align-items: center;
+  }
+  .boxxx {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 1px dashed rgba(255, 255, 255, 0.319);
+    color: rgba(255, 255, 255, 0.319);
+    display: flex;
+    padding: 0.7rem 0.7rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .ic {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    
+  }
+
+  .bigside {
+    margin-left: 2.5rem;
+  }
+
+  .smallside {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    height: 2.1rem;
+  }
+  .smallside:nth-child(2) {
+    margin-top: -0.5rem;
+  }
+
+  .graph {
+    margin-top: 0.6rem;
+  }
+
+  .leftnum {
+    color: rgba(255, 255, 255, 0.347);
+    display: flex;
+    
+  }
+
+  .ball {
+    display: flex;
+    height: 1rem;
+    gap: 1rem;
+  }
+
+  .balll {
+    margin-top: 0.8rem;
+  }
+
+  
+
+  
+
+  .btc {
+    display: flex;
+    margin-left: 2rem;
+    margin-top:  -0.1rem;
+    gap: 3rem;
+  }
+
+  .num {
+    font-size: 0.65rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1.1rem;
+  }
+  .numm {
+    font-size: 0.65rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .xaxis {
+    display: flex;
+    gap: 3rem;
+    margin-left: 3rem;
+  }
+
+  .rightnum {
+    color: rgba(255, 255, 255, 0.392);
+  }
+
+  .greenline {
+    position: absolute;
+    top: 0;
+    margin-top: 12rem;
+    width: 46rem;
+    margin-left: 2.5rem;
+    z-index: 2;
+  }
+
+  .pinkline {
+    position: absolute;
+    top: 0;
+    width: 46rem;
+    margin-top: 10.5rem;
+    margin-left: 2.5rem;
+    z-index: 3;
+  }
+
+  .yellowline {
+    position: absolute;
+    top: 0;
+    width: 44rem;
+    margin-top: 12rem;
+    margin-left: 2.5rem;
+    z-index: 1;
+  }
+
+  .shadeline {
+    position: absolute;
+    top: 0;
+    width: 46rem;
+    margin-top: 11rem;
+    margin-left: 2.5rem;
+  }
+
+  .pinkshade {
+    position: absolute;
+    width: 13rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: #ea5bf760;
+    filter: blur(72px);
+    top: 0;
+    margin-top: 10rem;
+    margin-left: 20rem;
+  }
+
+  .yellowtop {
+    position: absolute;
+    top: 0;
+    margin-top: 13rem;
+    margin-left: 26rem;
+    height: 5rem;
+  }
+
+  .pinktop {
+    position: absolute;
+    top: 0;
+    margin-top: 10.5rem;
+    margin-left: 28rem;
+    height: 5.5rem;
+  }
+  .bluetop {
+    position: absolute;
+    top: 0;
+    margin-top: 12.5rem;
+    margin-left: 29.5rem;
+    height: 6.5rem;
+  }
+
+  .ltc {
+    position: absolute;
+    color: white;
+    top: 0;
+    margin-top: 12.5rem;
+    margin-left: 22.7rem;
+    display: flex;
+    height: 1.5rem;
+    width: 4rem;
+    background-color: rgba(92, 81, 255, 0.188);
+    border-radius: 1rem;
+    gap: 0.2rem;
+    align-items: center;
+  }
+  .b {
+    margin-left: 0.4rem;
+  }
+  .n {
+    font-size: 0.75rem;
+    margin-left: 0.4rem;
+  }
+  .bit {
+    position: absolute;
+    color: white;
+    top: 0;
+    margin-top: 9.7rem;
+    margin-left: 27.4rem;
+    display: flex;
+    height: 1.5rem;
+    width: 4rem;
+    background-color: rgba(89, 84, 247, 0.235);
+    border-radius: 1rem;
+    gap: 0.2rem;
+    align-items: center;
+  }
+  .eth {
+    position: absolute;
+    color: white;
+    top: 0;
+    margin-top: 12rem;
+    margin-left: 28.9rem;
+    display: flex;
+    height: 1.5rem;
+    width: 4rem;
+    background-color: rgba(105, 100, 246, 0.21);
+    border-radius: 1rem;
+    gap: 0.2rem;
+    align-items: center;
+  }
+
+  .downbox {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .trendd {
+    color: white;
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .dp {
+    color: rgba(255, 255, 255, 0.539);
+  }
+
+  .dh {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    line-height: 1rem;
+    margin-top: -0.2rem;
+  }
+
+  .trend {
+    width: 100%;
+  }
+
+  .downt {
+    display: flex;
+    margin-top: -0.5rem;
+    gap: 1.6rem;
+  }
+
+  .dwn {
+    margin-top: -0.8rem;
+    margin-left: -0.4rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .ratee {
+    color: rgba(255, 0, 0, 0.646);
+  }
+
+  .rate {
+    color: rgba(55, 255, 55, 0.463);
+  }
+
+  .pinkdown {
+    margin-top: -0.4rem;
+    width: 9rem;
+    margin-left: -0.5rem;
+}
+
+.history {
+  margin-left: auto;
+  color: rgba(255, 255, 255, 0.196);
+  width: 20rem;
+  height: auto;
+  margin-right: 1.5rem;
+  margin-top: -0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.seeall {
+  margin-left: auto;
+  color: rgba(0, 157, 255, 0.87)
+}
+.tophis {
+  display: flex;
+  margin-top: -0.8rem;
+}
+.his {
+  display: flex;
+  margin-top: -1.6rem;
+  align-items: center;
+}
+
+.disbit {
+  margin-top: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.dislogo {
+  display: flex;
+  gap: 0.6rem;
+   
+}
+
+.disdate {
+  display: flex;
+  margin-left: auto;
+  gap: 0.4rem;
+}
+
+.histo {
+  color: white;
+}
